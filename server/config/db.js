@@ -11,4 +11,4 @@ export const connectDB = async () => {
         console.error(`Error: ${error.message}`);
         process.exit(1);       //  process code 1 means exit with failure
     }
-}
+}       //  function to connect to database

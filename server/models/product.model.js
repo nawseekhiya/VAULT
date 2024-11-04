@@ -14,9 +14,9 @@ const productSchema = new mongoose.Schema({
         required: true
     },
 }, {
-    timestamps: true    // createdAt, updatedAt
+    timestamps: true    // gives values of createdAt, updatedAt
 });
 
-const Product = mongoose.model('Product',productSchema);
+const Product = mongoose.model('Product',productSchema);        //  creating a Product model
 
 export default Product;
