@@ -2,7 +2,6 @@ import { Button, HStack, Container, Flex, Text, useColorMode } from "@chakra-ui/
 import { CiSquarePlus } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import React from "react";
-
 import { IoMoon } from "react-icons/io5";
 import { LuSun } from "react-icons/lu";
 
