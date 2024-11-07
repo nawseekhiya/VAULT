@@ -123,6 +123,8 @@ vault
 │   ├── src                # React source files
 │   └── README.md          # Client-specific documentation
 ├── server                 # Backend Express server
+│   ├── config             # Configuration files
+│   ├── controllers        # Request handlers
 │   ├── models             # Database models (e.g., Product model)
 │   ├── routes             # Express routes
 │   └── README.md          # Server-specific documentation
